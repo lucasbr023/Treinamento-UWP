@@ -1,0 +1,1 @@
+D:\workspace\treinamento\App05SliderBinding\App05SliderBinding\App05SliderBinding.csproj;x86

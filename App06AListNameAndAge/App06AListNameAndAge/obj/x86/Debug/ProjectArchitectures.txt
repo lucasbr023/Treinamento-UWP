@@ -1,0 +1,1 @@
+D:\workspace\treinamento\App06AListNameAndAge\App06AListNameAndAge\App06AListNameAndAge.csproj;x86

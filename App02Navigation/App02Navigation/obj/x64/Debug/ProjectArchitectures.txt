@@ -1,0 +1,1 @@
+C:\Users\lmc3\Documents\GitHub\Treinamento-UWP\App02Navigation\App02Navigation\App02Navigation.csproj;x64
