@@ -1,0 +1,33 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="App07_08_09_ToDo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App07_08_09_ToDo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <local:Person x:Key="Person" />
+        <DataTemplate x:Key="templateListView"                          >
+            <TextBlock x:ConnectionId='2'                              /> 
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        
+        <TextBox x:ConnectionId='3' Grid.Column="0" HorizontalAlignment="Stretch"                                   VerticalAlignment="Top"/>
+        <Button x:ConnectionId='4' Grid.Column="1" VerticalAlignment="Top"                              >Add</Button>
+        <ListView x:ConnectionId='5' Grid.Row="1" Grid.ColumnSpan="2"                                            ItemTemplate="{StaticResource templateListView}"/>
+    </Grid>
+</Page>
+

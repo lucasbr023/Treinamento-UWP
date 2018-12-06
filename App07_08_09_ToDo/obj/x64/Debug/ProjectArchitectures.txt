@@ -1,0 +1,1 @@
+C:\Users\lmc3\Documents\GitHub\Treinamento-UWP\App07_08_09_ToDo\App07_08_09_ToDo.csproj;x64
