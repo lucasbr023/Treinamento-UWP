@@ -1,0 +1,1 @@
+C:\Users\lmc3\Documents\GitHub\Treinamento-UWP\App05SliderBinding\App05SliderBinding\App05SliderBinding.csproj;x64

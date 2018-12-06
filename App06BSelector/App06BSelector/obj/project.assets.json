@@ -27911,11 +27911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\treinamento\\App06BSelector\\App06BSelector\\App06BSelector.csproj",
+      "projectUniqueName": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App06BSelector\\App06BSelector\\App06BSelector.csproj",
       "projectName": "App06BSelector",
-      "projectPath": "D:\\workspace\\treinamento\\App06BSelector\\App06BSelector\\App06BSelector.csproj",
+      "projectPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App06BSelector\\App06BSelector\\App06BSelector.csproj",
       "packagesPath": "C:\\Users\\lmc3\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\treinamento\\App06BSelector\\App06BSelector\\obj\\",
+      "outputPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App06BSelector\\App06BSelector\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

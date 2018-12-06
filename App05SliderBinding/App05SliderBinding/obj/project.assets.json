@@ -27911,11 +27911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\treinamento\\App05SliderBinding\\App05SliderBinding\\App05SliderBinding.csproj",
+      "projectUniqueName": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App05SliderBinding\\App05SliderBinding\\App05SliderBinding.csproj",
       "projectName": "App05SliderBinding",
-      "projectPath": "D:\\workspace\\treinamento\\App05SliderBinding\\App05SliderBinding\\App05SliderBinding.csproj",
+      "projectPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App05SliderBinding\\App05SliderBinding\\App05SliderBinding.csproj",
       "packagesPath": "C:\\Users\\lmc3\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\treinamento\\App05SliderBinding\\App05SliderBinding\\obj\\",
+      "outputPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App05SliderBinding\\App05SliderBinding\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

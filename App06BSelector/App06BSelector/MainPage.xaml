@@ -10,17 +10,29 @@
 
     <Page.Resources>
         <local:Data x:Key="Data" />
-        <DataTemplate x:Key="listViewPersonSelector" x:DataType="local:Person">
+        <DataTemplate x:Key="ListViewPersonSelectorRed" x:DataType="local:Person">
             <StackPanel>
-                <TextBlock Text="{x:Bind Path=FullName}"/>
-                <TextBlock>
+                <TextBlock Foreground="Red" Text="{x:Bind Path=FullName}"/>
+                <TextBlock Foreground="Red">
                     <Run Text="{x:Bind Path=Age}" />
                     <Run Text="anos" />
                 </TextBlock>
             </StackPanel>
         </DataTemplate>
+
+        <DataTemplate x:Key="ListViewPersonSelectorGreen" x:DataType="local:Person">
+            <StackPanel>
+                <TextBlock Foreground="Green" Text="{x:Bind Path=FullName}"/>
+                <TextBlock Foreground="Green">
+                    <Run Text="{x:Bind Path=Age}" />
+                    <Run Text="anos" />
+                </TextBlock>
+            </StackPanel>
+        </DataTemplate>
+
+        <local:TemplateSelector x:Key="templateSelector" ListViewPersonSelectorRed="{StaticResource ListViewPersonSelectorRed}" ListViewPersonSelectorGreen="{StaticResource ListViewPersonSelectorGreen}" />
     </Page.Resources>
     <Grid>
-        <ListView ItemsSource="{Binding People, Source={StaticResource Data}}" ItemTemplate="{StaticResource listViewPersonSelector}"/>
+        <ListView ItemsSource="{Binding People, Source={StaticResource Data}}" ItemTemplateSelector="{StaticResource templateSelector}"/>
     </Grid>
 </Page>

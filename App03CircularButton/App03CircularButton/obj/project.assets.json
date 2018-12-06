@@ -8134,11 +8134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\treinamento\\App03CircularButton\\App03CircularButton\\App03CircularButton.csproj",
+      "projectUniqueName": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App03CircularButton\\App03CircularButton\\App03CircularButton.csproj",
       "projectName": "App03CircularButton",
-      "projectPath": "D:\\workspace\\treinamento\\App03CircularButton\\App03CircularButton\\App03CircularButton.csproj",
+      "projectPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App03CircularButton\\App03CircularButton\\App03CircularButton.csproj",
       "packagesPath": "C:\\Users\\lmc3\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\treinamento\\App03CircularButton\\App03CircularButton\\obj\\",
+      "outputPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App03CircularButton\\App03CircularButton\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

@@ -1,15 +1,19 @@
-﻿using Windows.UI.Xaml;
+﻿using System.Diagnostics;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
 namespace App06BSelector
 {
     public class TemplateSelector : DataTemplateSelector
     {
-        public DataTemplate RedTemplate { get; set; }
-        public DataTemplate GreenTemplate { get; set; }
+        public DataTemplate ListViewPersonSelectorRed { get; set; }
+        public DataTemplate ListViewPersonSelectorGreen { get; set; }
+        public int Index = 0;
         protected override DataTemplate SelectTemplateCore(object item, DependencyObject container)
         {
-            return null;
+            var person = item as Person;
+            
+            return person.Age < 25 ? ListViewPersonSelectorGreen : ListViewPersonSelectorRed;
         }
     }
 }

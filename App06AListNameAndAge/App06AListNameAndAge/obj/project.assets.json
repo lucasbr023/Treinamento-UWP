@@ -27911,11 +27911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\treinamento\\App06AListNameAndAge\\App06AListNameAndAge\\App06AListNameAndAge.csproj",
+      "projectUniqueName": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App06AListNameAndAge\\App06AListNameAndAge\\App06AListNameAndAge.csproj",
       "projectName": "App06AListNameAndAge",
-      "projectPath": "D:\\workspace\\treinamento\\App06AListNameAndAge\\App06AListNameAndAge\\App06AListNameAndAge.csproj",
+      "projectPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App06AListNameAndAge\\App06AListNameAndAge\\App06AListNameAndAge.csproj",
       "packagesPath": "C:\\Users\\lmc3\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\treinamento\\App06AListNameAndAge\\App06AListNameAndAge\\obj\\",
+      "outputPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App06AListNameAndAge\\App06AListNameAndAge\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

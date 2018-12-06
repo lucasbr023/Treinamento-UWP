@@ -10,18 +10,30 @@
 
     <Page.Resources>
         <local:Data x:Key="Data" />
-        <DataTemplate x:Key="listViewPersonSelector"                          >
+        <DataTemplate x:Key="ListViewPersonSelectorRed"                          >
+            <StackPanel x:ConnectionId='5'>
+                <TextBlock x:ConnectionId='6' Foreground="Red"                              />
+                <TextBlock Foreground="Red">
+                    <Run x:ConnectionId='7'                          />
+                    <Run Text="anos" />
+                </TextBlock>
+            </StackPanel>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ListViewPersonSelectorGreen"                          >
             <StackPanel x:ConnectionId='2'>
-                <TextBlock x:ConnectionId='3'                              />
-                <TextBlock>
+                <TextBlock x:ConnectionId='3' Foreground="Green"                              />
+                <TextBlock Foreground="Green">
                     <Run x:ConnectionId='4'                          />
                     <Run Text="anos" />
                 </TextBlock>
             </StackPanel>
         </DataTemplate>
+
+        <local:TemplateSelector x:Key="templateSelector" ListViewPersonSelectorRed="{StaticResource ListViewPersonSelectorRed}" ListViewPersonSelectorGreen="{StaticResource ListViewPersonSelectorGreen}" />
     </Page.Resources>
     <Grid>
-        <ListView ItemsSource="{Binding People, Source={StaticResource Data}}" ItemTemplate="{StaticResource listViewPersonSelector}"/>
+        <ListView ItemsSource="{Binding People, Source={StaticResource Data}}" ItemTemplateSelector="{StaticResource templateSelector}"/>
     </Grid>
 </Page>
 

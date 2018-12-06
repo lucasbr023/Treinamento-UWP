@@ -27911,11 +27911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\treinamento\\App04VisualStates\\App04VisualStates\\App04VisualStates.csproj",
+      "projectUniqueName": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App04VisualStates\\App04VisualStates\\App04VisualStates.csproj",
       "projectName": "App04VisualStates",
-      "projectPath": "D:\\workspace\\treinamento\\App04VisualStates\\App04VisualStates\\App04VisualStates.csproj",
+      "projectPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App04VisualStates\\App04VisualStates\\App04VisualStates.csproj",
       "packagesPath": "C:\\Users\\lmc3\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\treinamento\\App04VisualStates\\App04VisualStates\\obj\\",
+      "outputPath": "C:\\Users\\lmc3\\Documents\\GitHub\\Treinamento-UWP\\App04VisualStates\\App04VisualStates\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
