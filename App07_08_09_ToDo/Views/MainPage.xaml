@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="App07_08_09_ToDo.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App07_08_09_ToDo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    xmlns:prism="using:Prism.Windows.Mvvm"
+    xmlns:model="using:App07_08_09_ToDo.Models"
+    prism:ViewModelLocator.AutoWireViewModel="True">
+
+    <Page.Resources>
+        <DataTemplate x:Key="templateListView" x:DataType="model:Person">
+            <TextBlock Text="{x:Bind Path=FullName}"/> 
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        
+        <TextBox x:Name="Name"  Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <Button Grid.Column="1" VerticalAlignment="Top" Command="{Binding AddPersonNameCommand}" CommandParameter="{Binding Text, ElementName=Name}">Add</Button>
+        <ListView Grid.Row="1" Grid.ColumnSpan="2" ItemsSource="{x:Bind ViewModel.People, Mode=OneWay}" ItemTemplate="{StaticResource templateListView}"/>
+    </Grid>
+</Page>

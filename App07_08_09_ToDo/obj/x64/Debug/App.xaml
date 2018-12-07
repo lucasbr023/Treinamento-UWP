@@ -1,8 +1,10 @@
-﻿<Application
+﻿<windows:PrismUnityApplication
     x:Class="App07_08_09_ToDo.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:App07_08_09_ToDo">
+    xmlns:local="using:App07_08_09_ToDo"
+    xmlns:windows="using:Prism.Unity.Windows"
+    RequestedTheme="Light">
 
-</Application>
+</windows:PrismUnityApplication>
 
