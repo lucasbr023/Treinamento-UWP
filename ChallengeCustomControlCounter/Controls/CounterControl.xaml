@@ -42,7 +42,7 @@
 
             
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="80">
-                <TextBlock Name="TextBlockPointValue" HorizontalAlignment="Center" VerticalAlignment="Center">T</TextBlock>
+                <TextBlock Name="TextBlockPointValue" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
             </Grid>
             <Button Click="RemovePoint"  Width="50" Height="80">↓</Button>
         </StackPanel>

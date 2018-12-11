@@ -46,7 +46,6 @@
       <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Inlines" />
     </RootType>
     <RootType FullName="ChallengeCustomControlCounter.Controls.CounterControl" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">

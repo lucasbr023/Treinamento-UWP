@@ -42,7 +42,7 @@
 
             
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="80">
-                <TextBlock x:ConnectionId='8' Name="TextBlockPointValue" HorizontalAlignment="Center" VerticalAlignment="Center">T</TextBlock>
+                <TextBlock x:ConnectionId='8' Name="TextBlockPointValue" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
             </Grid>
             <Button x:ConnectionId='7'                      Width="50" Height="80">↓</Button>
         </StackPanel>
